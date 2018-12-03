@@ -19,8 +19,17 @@ public interface Component {
     
     public void modificarComponent() throws ParseException;
     
-    public default Object demanarDades(String peticio, int tipus){
-        
-    }
+	public default Object demanarDades(String peticio, int tipus) {
+		Object dada = null;
+		System.out.println(peticio);
+		switch (tipus) {
+			case 1: dada=DADES.nextInt();	break;
+			case 2:	dada=DADES.next();		break;
+			case 3:	dada=DADES.nextDouble();break;
+			case 4:	dada=DADES.nextLine();	break;
+			default:	dada=null ;
+		}
+		return dada;
+	};
     
 }

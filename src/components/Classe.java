@@ -82,11 +82,12 @@ public class Classe implements Component {
     public void modificarComponent() {
 
         System.out.println("\nNom de la classe: " + nom);
-        System.out.println("\nEntra el nou nom:");
-        nom = DADES.nextLine();
-        System.out.println("\nCapacitat de la classe: " + nom);
-        System.out.println("\nEntra la nova capacitat:");
-        capacitat = DADES.nextInt();
+        nom = (String) demanarDades("\nEntra el nou nom:",4);
+        
+        
+        System.out.println("\nCapacitat de la classe: " + capacitat);
+        capacitat = (int) demanarDades("\nEntra la nova capacitat:",1);
+        
     }
 
     public void mostrarComponent() {
