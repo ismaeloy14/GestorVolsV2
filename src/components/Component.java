@@ -15,10 +15,12 @@ import java.util.Scanner;
 public interface Component {
     Scanner DADES = new Scanner(System.in);
     
-    void mostrarComponent();
+    public void mostrarComponent();
     
     public void modificarComponent() throws ParseException;
     
-    Object demanarDades(String peticio, int tipus);
+    public default Object demanarDades(String peticio, int tipus){
+        
+    }
     
 }

@@ -143,7 +143,7 @@ public class Avio implements Component {
 
     }
 
-    public void mostrarCoponent() {
+    public void mostrarComponent() {
         System.out.println("\nLes dades de l'avió amb codi " + codi + " són:");
         System.out.println("\nFabricant: " + fabricant);
         System.out.println("\nModel: " + model);
