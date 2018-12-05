@@ -1,17 +1,9 @@
-/*
- * Un tripulant de cabina de passatgers (TCP) es defineix pel seu passaport, nom
- * , edat, data d’alta en la companyia, hores que porta de vol i rang
- */
 package components;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author root
- */
 public class TCP {
 
     private final static Scanner DADES = new Scanner(System.in);

@@ -1,13 +1,5 @@
-/*
- * Un avió es defineix pel seu codi, fabricant, model, capacitat i un vector amb 
- * les seves classes.
- */
 package components;
 
-/**
- *
- * @author root
- */
 public class Avio implements Component {
 
     private String codi;

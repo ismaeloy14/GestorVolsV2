@@ -1,16 +1,5 @@
-/*
- * Una ruta intercontinental es defineix pel seu codi, aeroport d’origen, aeroport 
- * de destí, distància, país d’origen, país de destí, continent d’origen i continent 
- * de destí
- */
 package components;
 
-import java.util.Scanner;
-
-/**
- *
- * @author root
- */
 public class RutaIntercontinental extends RutaInternacional{
 	
     private String continentOri;

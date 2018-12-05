@@ -1,19 +1,6 @@
-/*
- * Defineix una classe d’un avió. Una classe d’un avió es defineix pel seu nom 
- * (no pot haver-hi un avió amb dues classes amb el mateix nom) i capacitat.
- * 
- */
 package components;
 
-import java.util.Scanner;
-
-/**
- *
- * @author root
- */
 public class Classe implements Component {
-    
-    private final static Scanner DADES= new Scanner(System.in);
     
     private String nom;
     private int capacitat;
@@ -33,18 +20,14 @@ public class Classe implements Component {
     Mètodes accessors    
     */
     public String getNom() {
-        
         return nom;
     }
-
     public void setNom(String nom) {
         this.nom = nom;
     }
-
     public int getCapacitat() {
         return capacitat;
     }
-
     public void setCapacitat(int capacitat) {
         this.capacitat = capacitat;
     }
@@ -80,14 +63,11 @@ public class Classe implements Component {
      Retorn: cap
      */
     public void modificarComponent() {
-
         System.out.println("\nNom de la classe: " + nom);
         nom = (String) demanarDades("\nEntra el nou nom:",4);
         
-        
         System.out.println("\nCapacitat de la classe: " + capacitat);
         capacitat = (int) demanarDades("\nEntra la nova capacitat:",1);
-        
     }
 
     public void mostrarComponent() {

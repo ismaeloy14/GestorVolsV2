@@ -1,7 +1,5 @@
 package components;
 
-import java.util.Scanner;
-
 public class RutaNacional extends Ruta {
 	
     private String pais;

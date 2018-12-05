@@ -1,7 +1,3 @@
-/*
- * Un tripulant de cabina es defineix pel seu passaport, nom, edat, data d’alta 
- * en la companyia, hores que porta de vol, rang i barres
- */
 package components;
 
 import java.text.SimpleDateFormat;

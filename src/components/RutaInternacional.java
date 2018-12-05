@@ -1,15 +1,5 @@
-/*
- * Una ruta internacional es defineix pel seu codi, aeroport d’origen, aeroport 
- * de destí, distància, país d’origen i país de destí
- */
 package components;
 
-import java.util.Scanner;
-
-/**
- *
- * @author root
- */
 public class RutaInternacional extends Ruta{
 
     private String paisOri;
