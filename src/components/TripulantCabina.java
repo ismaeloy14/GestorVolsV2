@@ -4,10 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author root
- */
 public class TripulantCabina {
 
     private final static Scanner DADES = new Scanner(System.in);
